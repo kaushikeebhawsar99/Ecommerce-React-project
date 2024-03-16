@@ -1,0 +1,124 @@
+.cart-main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 30px;
+}
+.cart-container{
+    display: flex;
+}
+.cart-left{
+    flex:0.7;
+    margin: 15px;
+    padding:10px;
+
+
+}
+.cart-right{
+    flex: 0.3;
+    padding: 10px;
+    margin: 10px;
+}
+.cart-description{
+    margin-top: 10px;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+.cart-button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cart-button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.remove-button{
+    background-color: #3c2c5c;
+    color: white;
+    width:auto;
+    /* #ee7070;;  */
+    /* #be6a1c d57057  */
+    padding: 12px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 500px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.remove-button:hover{
+    background-color: #9a7388;
+}
+.place-order-button{
+    background-color: #cb444c;
+    color: white;
+    /* #ee7070;;  */
+    /* #be6a1c d57057  */
+    padding: 15px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.place-order-button:hover{
+    background-color: #e37c7c;
+}
+
+.cart-total-checkout{
+    margin-top: 5rem;
+    border-top: black solid 2px;
+    padding-top: 1rem;
+}
+.cart-price-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.empty-cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .empty-cart-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .back-to-home-btn {
+    background-color: #ee7070;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-to-home-btn:hover {
+    background-color: #f86b6b;
+  }
+  
+  .empty-cart-container img {
+    width: 300px; /* Adjust the width of the GIF as needed */
+    margin-top: 20px;
+  }
+  
